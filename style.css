@@ -1,0 +1,34 @@
+#cantainer{
+    padding: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    'nav nav nav nav'
+    'box1 box2 box3 box4'
+    'box1 box2 box3 box4';
+}
+.list{
+    background-color: yellow;
+    padding: 10px;
+    font-size: 20px;
+}
+#box0{
+    grid-area: nav;
+}
+#box1{
+    background-color: red;
+    height: 150px;
+    grid-area: box1;
+}
+#box2{
+    background-color:greenyellow;
+    grid-area: box2;
+}
+#box3{
+    background-color: blueviolet;
+    grid-area: box3;
+}
+#box4{
+    background-color: palevioletred;
+    grid-area: box4;
+}

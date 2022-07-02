@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+#p{
+    text-align: center;
+}
+#container{
+    display: flex;
+    height: 400px;
+    width: 950px;
+    margin: auto;
+    margin-top: 40px;
+}
+#child{
+    height: 350px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#buton{
+    border: 1px solid blue;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 16px;
+    color: blueviolet;
+}
+#h1{
+    color: gray;
+}
+#p2{
+    font-style: italic;
+}
